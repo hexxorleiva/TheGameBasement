@@ -1,0 +1,153 @@
+@import url('../twentyten/style.css');
+
+/*
+Theme Name: Child of TwentyTen
+Theme URI: http://www.thegamebasement.com
+Description: First Child Theme
+Author: Hector L
+Template: twentyten
+*/
+
+
+#wrapper {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background-color: #000000; /*#15151d*/
+	width: 1000px; /* Was 1000px initally*/
+	margin-top: 0px;
+}
+
+#access {
+	width: 1000px; /*Controls the main menu blocks is 1000px*/
+	display: block;
+}
+
+#main {
+	padding: 0px 0 0 0; /*Padding for the main content, this is how many pixels from the top*/
+	background-color: black;
+}
+
+/* This is for the general font that is used throughout the entire site, also added a line break so it seperates the posts more cleanly*/
+
+#content {
+	color: #fff; /* was #333 */
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* To edit out the "Posted in" line that appears underneath a post */
+
+.entry-utility {
+	color: #fff;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+/* This was separated from the above #content tag because of the conflict of having a white background and white text
+   in trying to write an e-mail to thegamebasement through the contact form.*/
+#content input, #content textarea {
+	color: #000;
+}
+
+/* For blog posts/review titles */
+#content .entry-title {
+	color: #fff;
+}
+
+/* Error found when a commenter posted - their name became black and unviewable */
+
+.comment-author cite {
+	color: #fff;
+}
+
+.entry-title a:link, .entry-title a:visited {
+	color: #CCC;
+}
+
+h3#comments-title, h3#reply-title {
+	color:#fff;
+}
+
+body,
+input,
+textarea {
+	color: #fff;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+/* When creating tables on the site */
+
+#content tr td {
+	border-top: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#content table {
+	border: 0px;
+}
+
+/* Menu
+-------------------------------------------------------------- */
+
+#access .menu-header, div.menu, #colophon, #branding, #main, #wrapper {
+	width:1000px;
+}
+a:link {
+	color: white; /* was black */
+}
+a:active, a:hover {
+	color: #ff4b33; /* */
+}
+.widget-title {
+	font-size: medium;
+	color: #ff3333; /* #ff3333 */
+	margin: 0 0 5px 0; /* This to add extra spacing between the Widget title and the list below it*/
+}
+.widget-container {
+	margin: 0 0 18px 0;
+}
+
+body, input, textarea {
+	font-size: 13px; /* adjusts the text under the Widget title*/
+}
+
+/* =Header
+-------------------------------------------------------------- */
+
+#header {
+	padding: 5px 0 0 0;
+}
+
+/*Added after forum.php was created*/
+#fullwidth {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+}
+#container {
+	width:100%;
+	
+}
+/* This section is for the front page which is "One column, no sidebar" format as a page*/
+
+.one-column #content {
+	margin: 0px 0px 0px 0px; /*top, right, bottom,left*/
+	width: 100%;
+	background-color: black;
+}
+/*Footer
+-------------------------------------------------------------- */
+
+#footer {
+	background-color:#000;
+}
+
+#footer-widget-area {
+	background-color:#000;
+}
+
+#footer-widget-area .widget-area{
+	width: 290px;
+}
