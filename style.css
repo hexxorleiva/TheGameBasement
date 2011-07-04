@@ -21,6 +21,7 @@ Template: twentyten
 #access {
 	width: 1000px; /*Controls the main menu blocks is 1000px*/
 	display: block;
+	margin: 0px -12px;
 }
 
 #main {
